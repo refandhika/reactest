@@ -1,6 +1,6 @@
 # reactest
 
-Playing around with Ruby on Rails and Reactest
+Playing around with Ruby on Rails and Reactest.
 
 ## Ruby version
 > 2.4.0
@@ -21,28 +21,37 @@ rails server
 
 ## Directory
 * TicTacToe
-Sample tictactoe, from React basic
+
+Sample tictactoe, from React basic.
 
 * SimpleClock
-Simple real-time clock using MomentJs
+
+Simple real-time clock using MomentJs.
 
 * Profile
-Sample GET profile, from React basic
+
+Sample GET profile, from React basic.
 
 * Forms
-Sample use of form, from React basic
+
+Sample use of form, from React basic.
 
 * Temperature
-Thermometre, from React basic
+
+Thermometre, from React basic.
 
 * Products
-Interactive table, from React basic
+
+Interactive table, from React basic.
 
 * Login Form
-Simple login form
+
+Simple login form.
 
 * Date Time Picker
-Android like datetime picker
+
+Android like datetime picker.
 
 * TestEnv
+
 Directory for testing new react component.
