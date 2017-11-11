@@ -1,0 +1,177 @@
+#testenv {
+	text-align: center;
+}
+
+#testenv label{
+	color: black;
+}
+
+#testenv input[type="text"],
+#testenv input[type="password"]{
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
+
+.calendarMask,
+.clockMask {
+	position: fixed;
+	z-index: 9997;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	display: table;
+	transition: opacity .3s ease;
+}
+.calendarWrapper,
+.clockWrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+.calendarContainer {
+	margin: 0px auto;
+	width: 250px;
+	height: 500px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+.clockContainer {
+	z-index: 9998;
+	margin: 0px auto;
+	width: 250px;
+	height: 350px;
+	box-shadow: 0px 0px 10px 1px black;
+}
+.calendarHeader {
+	margin: 0;
+	height: 240px;
+	padding: 5px;
+	background: black;
+	color: white;
+}
+.clockHeader {
+	display: table-cell;
+	vertical-align: middle;
+	width: inherit;
+	font-size: 3em;
+	margin: 0;
+	height: 90px;
+	padding: 5px;
+	background: black;
+	color: white;
+}
+.clockHeader span{
+	color: #CEE;
+}
+.dayNow {
+	width: 150px;
+	padding-left: 55px;
+	padding-right: 35px;
+	margin-bottom: 22.5px;
+	font-size: 100px;
+	line-height: 0.75;
+}
+.dayNow span {
+	vertical-align: top;
+	font-size: 0.3em;
+}
+.monthNow {
+	width: inherit;
+	font-size: 25px;
+	margin-bottom: 22.5px;
+}
+.yearNow {
+	width: inherit;
+	font-size: 25px;
+}
+.buttonDP{
+	display: table-cell;
+	position: relative;
+	width: 50px;
+	height: 30px;
+	vertical-align: middle;
+	border-radius: 10px;	
+}
+.buttonPrevDP{
+	left: 0;
+}
+.buttonNextDP{
+	right: 0;
+}
+.buttonDP:hover{
+	cursor: pointer;
+	background: #333;
+	color: grey;
+}
+.dayNow:hover,
+.monthNow:hover,
+.yearNow:hover {
+	cursor: pointer; 
+	color: grey;
+}
+.calendarMainDays,
+.calendarMainMonth,
+.calendarMainYear {
+	margin: 0;
+	height: 240px;
+	padding: 5px;
+	background: white;
+	color: black;
+}
+.calendarMainDays th,
+.calendarMainDays td, {
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+}
+.calendarMainMonth td, {
+	width: 60px;
+	height: 75px;
+	border-radius: 10px;
+}
+
+.calendarMainYear td, {
+	width: 60px;
+	height: 55px;
+	border-radius: 10px;
+}
+.calendarMainDays td:hover,
+.calendarMainMonth td:hover,
+.calendarMainYear td:hover,
+.selectedCell {
+	cursor: pointer;
+	background: grey;
+}
+.calendarMainDays .fadedCell:hover{
+	background: #CCC;
+}
+.clockMainHour,
+.clockMainMinute {
+	margin: 0;
+	height: 240px;
+	padding: 5px;
+	background: #EEE;
+	color: black;
+}
+.clockCircle{
+	position: relative;
+	width: 238px;
+	height: 238px;
+	border: 1px solid #DDD;
+	border-radius: 50%;
+	background: white;
+}
+.clockTick{
+	position: absolute;
+	text-align: center;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.clockTick:hover{
+	background: #AEE;
+}

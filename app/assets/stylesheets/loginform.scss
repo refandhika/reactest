@@ -1,0 +1,15 @@
+#loginform {
+	text-align: center;
+}
+
+#loginform label{
+	color: grey;
+}
+
+#loginform input[type="text"],
+#loginform input[type="password"]{
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
